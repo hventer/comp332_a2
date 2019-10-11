@@ -63,32 +63,127 @@ class SyntaxAnalysis(positions: Positions)
       (CASE ~> expression <~ colon) ~ statement ^^ CaseOf |
       DEFAULT ~> colon ~> statement ^^ Default |
       unlabelledStmt
+      /*
+      labdef ":" statement
+    | "CASE" expression ":" statement
+    | "DEFAULT" ":" statement
+    | unlabelledStmt
+      */
 
-  // FIXME Replace this stubbed parser.
   lazy val unlabelledStmt: PackratParser[Statement] =
-    FINISH ^^^ FinishStmt()
+    repeatableStmt |
+      iteratedStmt |
+      testStmt
 
-  // FIXME Add your parsers for weBCPL statements here.
+  lazy val repeatableStmt: PackratParser[Statement] =
+    repeatableStmt <~ REPEAT ^^ RepeatStmt |
+      (repeatableStmt <~ REPEATWHILE) ~ expression ^^ RepeatWhileStmt |
+      (repeatableStmt <~ REPEATUNTIL) ~ expression ^^ RepeatUntilStmt |
+      simpleStmt
+      /*
+      repeatableStmt :
+        repeatableStmt "REPEAT"
+      | repeatableStmt "REPEATWHILE" expression
+      | repeatableStmt "REPEATUNTIL" expression
+      | simpleStmt
+      */
 
+  lazy val iteratedStmt: PackratParser[Statement] =
+    (UNTIL ~> expression) ~ (DO ~> statement) ^^ UntilDoStmt |
+      (WHILE ~> expression) ~ (DO ~> statement) ^^ WhileDoStmt |
+      (FOR ~> idndef) ~ (equal ~> expression) ~ (TO ~> expression) ~ opt(BY ~> expression <~ question) ~ (DO ~> statement) ^^ ForStmt
+      /*
+      "UNTIL" expression "DO" statement
+    | "WHILE" expression "DO" statement
+    | "FOR" idndef "=" expression "TO" expression 
+          ("BY" expression)? "DO" statement
+      */
+
+  lazy val testStmt: PackratParser[Statement] =
+    (TEST ~> expression) ~ (THEN ~> statement) ~ (ELSE ~> statement) ^^ TestThenElseStmt |
+      (IF ~> expression) ~ (DO ~> statement) ^^ IfDoStmt |
+      (UNLESS ~> expression) ~ (DO ~> statement) ^^ UnlessDoStmt
+    /*
+    testStmt :
+      "TEST" expression "THEN" statement "ELSE" statement
+    | "IF" expression "DO" statement
+    | "UNLESS" expression "DO" statement
+    */
+
+  lazy val simpleStmt: PackratParser[Statement] =
+    repsep(expression, comma) ~ (assign ~> repsep(expression, comma)) ^^ AssignStmt |
+      callExp ^^ CallStmt |
+      BREAK ^^^ BreakStmt() |
+      LOOP ^^^ LoopStmt() |
+      ENDCASE ^^^ EndCaseStmt() |
+      RETURN ^^^ ReturnStmt() |
+      FINISH ^^^ FinishStmt() |
+      GOTO ~> labuse ^^ GotoStmt |
+      RESULTIS ~> expression ^^ ResultIsStmt |
+      (SWITCHON ~> expression) ~ (INTO ~> blockStmt) ^^ SwitchOnStmt |
+      blockStmt 
+    /*
+    simpleStmt :
+      (expression ",")* expression ":=" (expression ",")* expression
+    | callExp 
+    | "BREAK" | "LOOP" | "ENDCASE" | "RETURN" | "FINISH"
+    | "GOTO" labuse
+    | "RESULTIS" expression
+    | "SWITCHON" expression "INTO" blockStmt
+    | blockStmt
+    */
+
+  lazy val blockStmt: PackratParser[Block] =
+    leftBrace ~> (repsep(declaration, semiColon)) ~ (rep1sep(statement, semiColon)) <~ rightBrace ^^ Block
+    /*
+    blockStmt : "{" (declaration ";")* (statement ";")* statement "}"
+    */
+      
   /*
    * Expression parsers.
    */
 
-  /**
-    * Top level expression parser, parse `VALOF` and `TABLE` expressions.
-    */
+  //Top level expression parser, parse `VALOF` and `TABLE` expressions.
   lazy val expression: PackratParser[Expression] =
     VALOF ~> statement ^^ ValofExp |
       TABLE ~> rep1sep(expression, comma) ^^ TableExp |
       condExp
 
-  /**
-    * Level 1, parse if expressions `->`.
-    */
-  // FIXME Replace this stubbed parser
-  lazy val condExp: PackratParser[Expression] = relExp 
+  //FIXME
+  //Level 1, parse if expressions `->`.
+  lazy val condExp: PackratParser[Expression] = 
+    //VALOF ~> statement ^^ ValofExp |
+    xorEqvExp
 
-  // FIXME Add your expression parsers for levels 1-6 of the precedence hierarchy here.
+    //expression ~> rightArrow expression comma expression
+    //expression "->" expression "," expression
+
+  //Level 2
+  lazy val xorEqvExp: PackratParser[Expression] =
+    xorEqvExp ~ (EQV ~> orExp) ^^ EqvExp |
+    xorEqvExp ~ (XOR ~> orExp) ^^ XorExp |
+    orExp
+
+  //Level 3
+  lazy val orExp: PackratParser[Expression] = 
+    orExp ~ (pipe ~> andExp) ^^ OrExp |
+    andExp
+
+  //Level 4
+  lazy val andExp: PackratParser[Expression] =
+    andExp ~ (apersand ~> notExp) ^^ AndExp |
+    notExp
+
+  //Level 5
+  lazy val notExp: PackratParser[Expression] = 
+    NOT ~> bitShftExp ^^ NotExp|
+    bitShftExp
+
+  //Level 6
+  lazy val bitShftExp: PackratParser[Expression] =
+    bitShftExp ~ (shiftLeft ~> relExp) ^^ ShiftLeftExp |
+    bitShftExp ~ (shiftRight ~> relExp) ^^ ShiftRightExp |
+    relExp
 
   /**
     * Level 7, parse relational expressions `~=`, `=`, `>=`, `<=`...
@@ -113,15 +208,40 @@ class SyntaxAnalysis(positions: Positions)
           .reduceLeft(AndExp)
     } | addExp
 
-  /**
-    * Level 8, parse additive operator expressions, that is those involving
-    * binary `-` and `+`.
-    */
-  // FIXME Replace this stubbed parser
-  lazy val addExp: PackratParser[Expression] = primaryExp
+  //Level 8, parse additive operator expressions
+  lazy val addExp: PackratParser[Expression] = 
+    addExp ~ (plus ~> uAddExp) ^^ PlusExp |
+    addExp ~ (minus ~> uAddExp) ^^ MinusExp |
+    uAddExp
 
-  // FIXME Add your expression parsers for levels 8-12 of the precedence hierarchy here.
+  //Level 9
+  lazy val uAddExp: PackratParser[Expression] =
+    unaryMinus ~> multExp ^^ NegExp |
+    unaryPlus ~> idnuse ^^ IdnExp |
+    ABS ~> multExp ^^ AbsExp |
+    multExp
 
+  //Level 10
+  lazy val multExp: PackratParser[Expression] =
+    multExp ~ (star ~> addressExp) ^^ StarExp |
+    multExp ~ (slash ~> addressExp) ^^ SlashExp |
+    multExp ~ (MOD ~> addressExp) ^^ ModExp |
+    addressExp
+
+  //Level 11
+  lazy val addressExp: PackratParser[Expression] =
+    unaryPling ~> vectorExp ^^ UnaryPlingExp |
+    unaryPercent ~> vectorExp ^^ UnaryBytePlingExp |
+    at ~> vectorExp ^^ AddrOfExp |
+    vectorExp
+
+  //Level 12
+  lazy val vectorExp: PackratParser[Expression] =
+    vectorExp ~ (pling ~> primaryExp) ^^ BinaryPlingExp| 
+    vectorExp ~ (percent ~> primaryExp) ^^ BinaryBytePlingExp |
+    primaryExp
+
+  
   /**
     * Level 13, parse primary expressions, that is function calls, identifiers,
     * bracketed expressions, and literal constants.

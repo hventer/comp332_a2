@@ -1,0 +1,8 @@
+test
+exit
+compile
+run src/test/resources/queens.b
+run src/test/resources/expregs.b
+run src/test/resources/fibonacci.b
+run src/test/resources/expregs.b
+exit
