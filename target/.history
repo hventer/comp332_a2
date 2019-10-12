@@ -6,3 +6,46 @@ run src/test/resources/expregs.b
 run src/test/resources/fibonacci.b
 run src/test/resources/expregs.b
 exit
+sbt
+exit
+test
+compile
+test
+exit
+test
+compile
+exit
+test
+exit
+test
+exit
+test
+exit
+test
+compile
+test
+run src/test/resources/queens.b
+run src/test/resources/expregs.b
+run src/test/resources/fibonacci.b
+run src/test/resources/queens.b
+test
+run src/test/resources/queens.b
+run src/test/resources/expregs.b
+run src/test/resources/fibonacci.b
+run src/test/resources/expregs.b
+test
+run src/test/resources/queens.b
+run src/test/resources/msort.b
+run src/test/resources/random.b
+run src/test/resources/writef.b
+test
+run src/test/resources/writef.b
+test
+run src/test/resources/expregs.b
+test
+run src/test/resources/expregs.b
+test
+run src/test/resources/expregs.b
+test
+run src/test/resources/expregs.b
+test

@@ -4,7 +4,7 @@
 		module="bcpl-to-webassembly-compiler_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20191010120323"
+		publication="20191012115700"
 	>
 		<description>
 		BCPL to WebAssembly Compiler

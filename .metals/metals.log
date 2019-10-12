@@ -528,3 +528,360 @@ WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni W
 WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTestsOld.scala
 WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
 INFO  no build target: using presentation compiler with only scala-library
+INFO  shutting down Metals
+INFO  time: initialize in 0.47s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTestsOld.scala
+INFO  time: initialize in 0.4s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTestsOld.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/SyntaxAnalysisTestsOld.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/SyntaxAnalysisTestsOld.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/SyntaxAnalysisTestsOld.scala
+INFO  skipping build import with status 'Requested'
+INFO  shutting down Metals
+INFO  time: initialize in 0.68s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.46s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.8s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+INFO  no build target: using presentation compiler with only scala-library
+INFO  shutting down Metals
+INFO  time: initialize in 0.45s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/SyntaxAnalysisTestsOld.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/LexicalAnalysis.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/LexicalAnalysis.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/BCPLTree.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+Oct 12, 2019 2:20:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+Oct 12, 2019 3:26:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/LexicalAnalysis.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/BCPLTree.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/BCPLTree.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/BCPLTree.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/SyntaxAnalysisTestsOld.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/BCPLTree.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/LexicalAnalysis.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/BCPLTree.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/BCPLTree.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+Oct 12, 2019 4:10:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/SyntaxAnalysisTestsOld.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+Oct 12, 2019 4:47:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Oct 12, 2019 4:48:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+Oct 12, 2019 4:56:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+Oct 12, 2019 4:59:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+Oct 12, 2019 5:01:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3780
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+Oct 12, 2019 5:07:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala
+Oct 12, 2019 5:11:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala
+Oct 12, 2019 5:49:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4107
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala' because it doesn't belong to a build target.
+INFO  shutting down Metals

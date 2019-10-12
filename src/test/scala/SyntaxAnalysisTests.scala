@@ -600,4 +600,404 @@ class SyntaxAnalysisTests extends ParseTests with ParseTestExtras {
   }
 
   // FIXME Add your automated tests here.
+
+ // Conditional tests.
+ test("ternary with parentheses on right A -> B, (C -> D, E)") {
+  expression("A -> B, C -> D, E") should parseTo[Expression](
+    IfExp(
+      IdnExp(IdnUse("A")),
+      IdnExp(IdnUse("B")),
+      IfExp(
+        IdnExp(IdnUse("C")),
+        IdnExp(IdnUse("D")),
+        IdnExp(IdnUse("E")))))
+}
+
+test("ternary with parentheses in middle A -> (B -> C, D), E)") {
+  expression("A -> B -> C, D, E") should parseTo[Expression](
+    IfExp(
+      IdnExp(IdnUse("A")),
+      IfExp(
+        IdnExp(IdnUse("B")),
+        IdnExp(IdnUse("C")),
+        IdnExp(IdnUse("D"))),
+      IdnExp(IdnUse("E"))))
+}
+
+//XOR / EQV
+test("XOR") {
+  expression("a XOR c") should parseTo[Expression](
+    XorExp(IdnExp(IdnUse("a")),IdnExp(IdnUse("c"))))
+}
+
+test("EQV") {
+  expression("a EQV c") should parseTo[Expression](
+    EqvExp(IdnExp(IdnUse("a")),IdnExp(IdnUse("c"))))
+}
+
+  //OR
+  test("OR") {
+    expression("a | c") should parseTo[Expression](
+      OrExp(IdnExp(IdnUse("a")),IdnExp(IdnUse("c"))))
+  }
+
+  test("OR Associativity") {
+    expression("a | b | c") should parseTo[Expression](
+      OrExp(
+        OrExp(
+          IdnExp(IdnUse("a")),
+          IdnExp(IdnUse("b"))),
+        IdnExp(IdnUse("c"))))
+  }
+
+  //AND
+  test("AND") {
+    expression("a & c") should parseTo[Expression](
+      AndExp(IdnExp(IdnUse("a")),IdnExp(IdnUse("c"))))
+  }
+  test("AND Associativity") {
+    expression("a & b & c") should parseTo[Expression](
+      AndExp(
+        AndExp(
+          IdnExp(IdnUse("a")),
+          IdnExp(IdnUse("b"))),
+        IdnExp(IdnUse("c"))))
+  }
+
+  //NOT
+  test("NOT something") {
+    expression("NOT a") should parseTo[Expression](
+      NotExp(IdnExp(IdnUse("a"))))
+  }
+
+  //BitShifting
+  test("BitShift Left") {
+    expression("a << b") should parseTo[Expression](
+      ShiftLeftExp(IdnExp(IdnUse("a")),IdnExp(IdnUse("b"))))
+  }
+
+  test("BitShift Left Associativity") {
+    expression("a << b << c") should parseTo[Expression](
+      ShiftLeftExp(
+        ShiftLeftExp(
+          IdnExp(IdnUse("a")),
+          IdnExp(IdnUse("b"))),
+        IdnExp(IdnUse("c"))))
+  }
+
+  test("BitShift Right") {
+    expression("a >> b") should parseTo[Expression](
+      ShiftRightExp(IdnExp(IdnUse("a")),IdnExp(IdnUse("b"))))
+  }
+
+  test("BitShift Right Associativity") {
+    expression("a >> b >> c") should parseTo[Expression](
+      ShiftRightExp(
+        ShiftRightExp(
+          IdnExp(IdnUse("a")),
+          IdnExp(IdnUse("b"))),
+        IdnExp(IdnUse("c"))))
+  }
+
+  test("address expression") {
+    expression("v!i + v!j - a * b") should parseTo[Expression](
+    MinusExp(
+      PlusExp(
+        BinaryPlingExp(
+            IdnExp(IdnUse("v")),
+            IdnExp(IdnUse("i"))),
+        BinaryPlingExp(
+            IdnExp(IdnUse("v")),
+            IdnExp(IdnUse("j")))),
+    StarExp(
+        IdnExp(IdnUse("a")), 
+        IdnExp(IdnUse("b")))))
+  }
+
+  // Tests of binary operator associativity
+  test("+ is left associative") {
+    phrase(expression)("a + b + c") should parseTo[Expression](
+      PlusExp(PlusExp(IdnExp(IdnUse("a")),
+                      IdnExp(IdnUse("b"))),
+              IdnExp(IdnUse("c"))))
+  }
+
+  test("- is left associative") {
+    phrase(expression)("a - b - c") should parseTo[Expression](
+      MinusExp(MinusExp(IdnExp(IdnUse("a")),
+                        IdnExp(IdnUse("b"))),
+               IdnExp(IdnUse("c"))))
+  }
+
+  test("- and + are left associative") {
+    phrase(expression)("a + b - c") should parseTo[Expression](
+      MinusExp(PlusExp(IdnExp(IdnUse("a")),
+                        IdnExp(IdnUse("b"))),
+               IdnExp(IdnUse("c"))))
+  }
+
+  test("* is left associative") {
+    phrase(expression)("a * b * c") should parseTo[Expression](
+      StarExp(StarExp(IdnExp(IdnUse("a")),
+                      IdnExp(IdnUse("b"))),
+              IdnExp(IdnUse("c"))))
+  }
+
+  test("/ is left associative") {
+    phrase(expression)("a / b / c") should parseTo[Expression](
+      SlashExp(SlashExp(IdnExp(IdnUse("a")),
+                        IdnExp(IdnUse("b"))),
+               IdnExp(IdnUse("c"))))
+  }
+
+  test("/ and * are left associative") {
+    phrase(expression)("a / b * c") should parseTo[Expression](
+      StarExp(SlashExp(IdnExp(IdnUse("a")),
+                        IdnExp(IdnUse("b"))),
+               IdnExp(IdnUse("c"))))
+  }  
+
+  // Tests of arithmetic operator relative precedence.
+  test("+ has lower precedence than * (to left)") {
+    expression("a + b * c") should parseTo[Expression](
+      PlusExp(IdnExp(IdnUse("a")), StarExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("- has lower precedence than * (to left)") {
+    expression("a - b * c") should parseTo[Expression](
+      MinusExp(IdnExp(IdnUse("a")), StarExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("+ has lower precedence than * (to right)") {
+    expression("b * c + a") should parseTo[Expression](
+      PlusExp(StarExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c"))), IdnExp(IdnUse("a"))))
+  }
+
+  test("- has lower precedence than * (to right)") {
+    expression("b * c - a") should parseTo[Expression](
+      MinusExp(StarExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c"))), IdnExp(IdnUse("a"))))
+  }
+
+  test("+ has lower precedence than / (to left)") {
+    expression("a + b / c") should parseTo[Expression](
+      PlusExp(IdnExp(IdnUse("a")), SlashExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("- has lower precedence than / (to left)") {
+    expression("a - b / c") should parseTo[Expression](
+      MinusExp(IdnExp(IdnUse("a")), SlashExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("+ has lower precedence than / (to right)") {
+    expression("b / c + a") should parseTo[Expression](
+      PlusExp(SlashExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c"))), IdnExp(IdnUse("a"))))
+  }
+
+  test("- has lower precedence than / (to right)") {
+    expression("b / c - a") should parseTo[Expression](
+      MinusExp(SlashExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c"))), IdnExp(IdnUse("a"))))
+  }
+
+  // Tests of relative precedence of relations
+  test("= has lower precedence than * (to left)") {
+    expression("a = b * c") should parseTo[Expression](
+      EqualExp(IdnExp(IdnUse("a")), StarExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("< has lower precedence than * (to left)") {
+    expression("a < b * c") should parseTo[Expression](
+      LessExp(IdnExp(IdnUse("a")), StarExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("= has lower precedence than * (to right)") {
+    expression("b * c = a") should parseTo[Expression](
+      EqualExp(StarExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c"))), IdnExp(IdnUse("a"))))
+  }
+
+  test("< has lower precedence than * (to right)") {
+    expression("b * c < a") should parseTo[Expression](
+      LessExp(StarExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c"))), IdnExp(IdnUse("a"))))
+  }
+
+  test("= has lower precedence than / (to left)") {
+    expression("a = b / c") should parseTo[Expression](
+      EqualExp(IdnExp(IdnUse("a")), SlashExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("< has lower precedence than / (to left)") {
+    expression("a < b / c") should parseTo[Expression](
+      LessExp(IdnExp(IdnUse("a")), SlashExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("= has lower precedence than / (to right)") {
+    expression("b / c = a") should parseTo[Expression](
+      EqualExp(SlashExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c"))), IdnExp(IdnUse("a"))))
+  }
+
+  test("< has lower precedence than / (to right)") {
+    expression("b / c < a") should parseTo[Expression](
+      LessExp(SlashExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c"))), IdnExp(IdnUse("a"))))
+  }
+
+  test("= has lower precedence than + (to left)") {
+    expression("a = b + c") should parseTo[Expression](
+      EqualExp(IdnExp(IdnUse("a")), PlusExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("< has lower precedence than + (to left)") {
+    expression("a < b + c") should parseTo[Expression](
+      LessExp(IdnExp(IdnUse("a")), PlusExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("= has lower precedence than + (to right)") {
+    expression("b + c = a") should parseTo[Expression](
+      EqualExp(PlusExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c"))), IdnExp(IdnUse("a"))))
+  }
+
+  test("< has lower precedence than + (to right)") {
+    expression("b + c < a") should parseTo[Expression](
+      LessExp(PlusExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c"))), IdnExp(IdnUse("a"))))
+  }
+
+  test("= has lower precedence than - (to left)") {
+    expression("a = b - c") should parseTo[Expression](
+      EqualExp(IdnExp(IdnUse("a")), MinusExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("< has lower precedence than - (to left)") {
+    expression("a < b - c") should parseTo[Expression](
+      LessExp(IdnExp(IdnUse("a")), MinusExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("= has lower precedence than - (to right)") {
+    expression("b - c = a") should parseTo[Expression](
+      EqualExp(MinusExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c"))), IdnExp(IdnUse("a"))))
+  }
+
+  test("< has lower precedence than - (to right)") {
+    expression("b - c < a") should parseTo[Expression](
+      LessExp(MinusExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c"))), IdnExp(IdnUse("a"))))
+  }
+
+  // Tests of unary minus precedence.
+  test("unary - has higher precedence than = (to left)") {
+    expression("-a = b") should parseTo[Expression](
+      EqualExp(NegExp(IdnExp(IdnUse("a"))), IdnExp(IdnUse("b"))))
+  }
+
+  test("unary - has higher precedence than = (to right)") {
+    expression("a = -b") should parseTo[Expression](
+      EqualExp(IdnExp(IdnUse("a")), NegExp(IdnExp(IdnUse("b")))))
+  }
+
+  test("unary - has higher precedence that < (to left)") {
+    expression("-a < b") should parseTo[Expression](
+      LessExp(NegExp(IdnExp(IdnUse("a"))), IdnExp(IdnUse("b"))))
+  }
+
+  test("unary - has higher precedence that < (to right)") {
+    expression("a < -b") should parseTo[Expression](
+      LessExp(IdnExp(IdnUse("a")), NegExp(IdnExp(IdnUse("b")))))
+  }
+
+  test("unary - has higher precedence than + (to left)") {
+    expression("-a + b") should parseTo[Expression](
+      PlusExp(NegExp(IdnExp(IdnUse("a"))), IdnExp(IdnUse("b"))))
+  }
+
+  test("unary - has higher precedence than + (to right)") {
+    expression("a + -b") should parseTo[Expression](
+      PlusExp(IdnExp(IdnUse("a")), NegExp(IdnExp(IdnUse("b")))))
+  }
+
+  test("unary - has higher precedence than - (to left)") {
+    expression("-a - b") should parseTo[Expression](
+      MinusExp(NegExp(IdnExp(IdnUse("a"))), IdnExp(IdnUse("b"))))
+  }
+
+  test("unary - has higher precedence than - (to right)") {
+    expression("a - -b") should parseTo[Expression](
+      MinusExp(IdnExp(IdnUse("a")), NegExp(IdnExp(IdnUse("b")))))
+  }
+
+  test("unary - has lower precedence than * (to left)") {
+    expression("-a * b") should parseTo[Expression](
+      NegExp(StarExp(IdnExp(IdnUse("a")),IdnExp(IdnUse("b")))))
+  }
+
+  test("unary - has lower precedence than / (to left)") {
+    expression("-a / b") should parseTo[Expression](
+      NegExp(SlashExp(IdnExp(IdnUse("a")),IdnExp(IdnUse("b")))))
+  }
+
+  // Tests of parsing basic expressions
+  test("parsing an equal expression produces the correct tree") {
+    expression("a = 1") should parseTo[Expression](EqualExp(IdnExp(IdnUse("a")), IntExp(1)))
+  }
+
+  test("parsing a less than expression produces the correct tree") {
+    expression("a < 1") should parseTo[Expression](LessExp(IdnExp(IdnUse("a")), IntExp(1)))
+  }
+
+  test("parsing an addition expression produces the correct tree") {
+    expression("a + 1") should parseTo[Expression](PlusExp(IdnExp(IdnUse("a")), IntExp(1)))
+  }
+
+  test("parsing a subtraction expression produces the correct tree") {
+    expression("a - 1") should parseTo[Expression](MinusExp(IdnExp(IdnUse("a")), IntExp(1)))
+  }
+
+  test("parsing a multiplication expression produces the correct tree") {
+    expression("a * 1") should parseTo[Expression](StarExp(IdnExp(IdnUse("a")), IntExp(1)))
+  }
+
+  test("parsing a division expression produces the correct tree") {
+    expression("a / 1") should parseTo[Expression](SlashExp(IdnExp(IdnUse("a")), IntExp(1)))
+  }
+
+  test("parsing an integer expression produces the correct tree") {
+    expression("823") should parseTo[Expression](IntExp(823))
+  }
+
+  test("parsing an identifier expression produces the correct tree") {
+    expression("v123") should parseTo[Expression](IdnExp(IdnUse("v123")))
+  }
+
+  test("parsing a parenthesized expression produces the correct tree") {
+    expression("(a + 5)") should parseTo[Expression](PlusExp(IdnExp(IdnUse("a")), IntExp(5)))
+  }
+
+
+  // Parenthesis tests.
+  test("parentheses override precedence (to left)") {
+    expression("(a + b) * c") should parseTo[Expression](
+      StarExp(PlusExp(IdnExp(IdnUse("a")), IdnExp(IdnUse("b"))), IdnExp(IdnUse("c"))))
+  }
+
+  test("parentheses override precedence (to right)") {
+    expression("a * (b + c)") should parseTo[Expression](
+      StarExp(IdnExp(IdnUse("a")), PlusExp(IdnExp(IdnUse("b")), IdnExp(IdnUse("c")))))
+  }
+
+  test("parentheses override associativity in expressions") {
+    expression("a + (b + c)") should parseTo[Expression](
+      PlusExp(IdnExp(IdnUse("a")),
+              PlusExp(IdnExp(IdnUse("b")),
+                      IdnExp(IdnUse("c")))))
+  }
+
+  test("parentheses disambiguate non-associativity (to right)") {
+    expression("a = (b = c)") should parseTo[Expression](
+      EqualExp(IdnExp(IdnUse("a")),
+               EqualExp(IdnExp(IdnUse("b")),
+                        IdnExp(IdnUse("c")))))
+  }
+
+  test("parentheses disambiguate non-associativity (to left)") {
+    expression("(a < b) < c") should parseTo[Expression](
+      LessExp(
+        LessExp(IdnExp(IdnUse("a")),
+                IdnExp(IdnUse("b"))),
+        IdnExp(IdnUse("c"))))
+  }
 }

@@ -77,3 +77,71 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- parsing a sequence of two relations[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- parsing a sequence of three relations[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- parsing a sequence of four relations[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ternary with parentheses on right A -> B, (C -> D, E)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ternary with parentheses in middle A -> (B -> C, D), E)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- XOR[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EQV[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- OR[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- OR Associativity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AND[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AND Associativity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- NOT something[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- BitShift Left[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- BitShift Left Associativity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- BitShift Right[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- BitShift Right Associativity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- address expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- + is left associative[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- - is left associative[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- - and + are left associative[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- * is left associative[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- / is left associative[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- / and * are left associative[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- + has lower precedence than * (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- - has lower precedence than * (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- + has lower precedence than * (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- - has lower precedence than * (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- + has lower precedence than / (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- - has lower precedence than / (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- + has lower precedence than / (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- - has lower precedence than / (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- = has lower precedence than * (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- < has lower precedence than * (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- = has lower precedence than * (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- < has lower precedence than * (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- = has lower precedence than / (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- < has lower precedence than / (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- = has lower precedence than / (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- < has lower precedence than / (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- = has lower precedence than + (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- < has lower precedence than + (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- = has lower precedence than + (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- < has lower precedence than + (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- = has lower precedence than - (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- < has lower precedence than - (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- = has lower precedence than - (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- < has lower precedence than - (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- unary - has higher precedence than = (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- unary - has higher precedence than = (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- unary - has higher precedence that < (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- unary - has higher precedence that < (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- unary - has higher precedence than + (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- unary - has higher precedence than + (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- unary - has higher precedence than - (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- unary - has higher precedence than - (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- unary - has lower precedence than * (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- unary - has lower precedence than / (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an equal expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a less than expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an addition expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a subtraction expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a multiplication expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a division expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an integer expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an identifier expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a parenthesized expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parentheses override precedence (to left)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parentheses override precedence (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parentheses override associativity in expressions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parentheses disambiguate non-associativity (to right)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parentheses disambiguate non-associativity (to left)[0m[0m

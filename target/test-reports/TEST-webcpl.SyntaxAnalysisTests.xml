@@ -1,32 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="Hanness-MBP-2.modem" name="webcpl.SyntaxAnalysisTests" tests="78" errors="0" failures="0" skipped="0" time="0.575" timestamp="2019-09-30T15:23:36">
+<testsuite hostname="Hanness-MBP.modem" name="webcpl.SyntaxAnalysisTests" tests="146" errors="0" failures="0" skipped="0" time="0.47" timestamp="2019-10-12T18:11:44">
                      <properties>
-      <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.specification.version" value="12"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://java.oracle.com/"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home/lib"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/1.2.8/libexec/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2019-07-16"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
-"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="12.0.2+10"/><property name="user.name" value="hannesventer"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/var/folders/j7/8t7x73891f9_s6dtxr8x36jw0000gn/T/jna--970233399/jna2798347301948815369.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/var/folders/j7/8t7x73891f9_s6dtxr8x36jw0000gn/T/"/><property name="java.version" value="12.0.2"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.library.path" value="/Users/hannesventer/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.vendor" value="Oracle Corporation"/><property name="scala.ext.dirs" value="/Users/hannesventer/.sbt/0.13/java9-rt-ext-oracle_corporation_12_0_2"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="java.class.path" value="/usr/local/Cellar/sbt/1.2.8/libexec/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Australia/Sydney"/><property name="java.vm.specification.version" value="12"/><property name="os.name" value="Mac OS X"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="AU"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/hannesventer"/><property name="user.language" value="en"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="path.separator" value=":"/><property name="os.version" value="10.14.6"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="user.dir" value="/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2"/><property name="os.arch" value="x86_64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="12.0.2+10"/><property name="java.class.version" value="56.0"/>
+      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.221-b11"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="AU"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2"/><property name="java.runtime.version" value="1.8.0_221-b11"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/n6/bw0dprg55d72cp734tytc5680000gn/T/"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/var/folders/n6/bw0dprg55d72cp734tytc5680000gn/T/jna--970233399/jna4319693836595290157.tmp"/><property name="java.library.path" value="/Users/hannesventer/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.15"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/hannesventer"/><property name="user.timezone" value="Australia/Sydney"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/local/Cellar/sbt/1.3.2/libexec/bin/sbt-launch.jar"/><property name="user.name" value="hannesventer"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/1.3.2/libexec/bin/sbt-launch.jar"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_221"/><property name="java.ext.dirs" value="/Users/hannesventer/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
     </properties>
-                     <testcase classname="webcpl.SyntaxAnalysisTests" name="parsing an identifier of one letter produces the correct tree" time="0.029">
+                     <testcase classname="webcpl.SyntaxAnalysisTests" name="parsing an identifier of one letter produces the correct tree" time="0.035">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing an identifier as an identifier produces the correct tree" time="0.001">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing an identifier containing digits and underscores" time="0.001">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing an identifier containing digits and underscores" time="0.0">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing an integer as an identifier gives an error" time="0.004">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing an integer as an identifier gives an error" time="0.003">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a non-identifier as an identifier gives an error (digit)" time="0.001">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a non-identifier as an identifier gives an error (digit)" time="0.0">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a non-identifier as an identifier gives an error (underscore)" time="0.001">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a non-identifier as an identifier gives an error (underscore)" time="0.0">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a keyword as an identifier gives an error" time="0.001">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a keyword as an identifier gives an error" time="0.0">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a keyword prefix as an identifier produces the correct tree" time="0.001">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a decimal constant of one digit produces the correct integer" time="0.003">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a decimal constant of one digit produces the correct integer" time="0.002">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a decimal constant produces the correct integer" time="0.001">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a decimal constant with underscores" time="0.001">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a decimal constant with underscores" time="0.0">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a hex constant produces the correct integer" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a hex constant produces the correct integer" time="0.001">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing #xFFFFFFFF produces the integer -1" time="0.001">
                                                  
@@ -34,17 +34,17 @@
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing #x_DeadC0de produces the integer -559038242" time="0.001">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a non-integer as an integer gives an error" time="0.001">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a non-integer as an integer gives an error" time="0.0">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing string constant with BCPL style escapes" time="0.365">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing string constant with BCPL style escapes" time="0.016">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing incorrect unicode escape fails" time="0.003">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing unicode escape with invalid codepoint fails" time="0.0">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing string constant with unicode escape" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing string constant with unicode escape" time="0.001">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing unicode character constant from higher plane" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing unicode character constant from higher plane" time="0.0">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing incorrect hex ASCII escape fails" time="0.0">
                                                  
@@ -56,109 +56,245 @@
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing line end character in string literal fails" time="0.0">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing of empty character literal fails" time="0.0">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing of empty character literal fails" time="0.001">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing of * fenced whitespace in character literal fails" time="0.0">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing unterminated character literal fails (1)" time="0.0">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing unterminated character literal fails (1)" time="0.001">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing character literal encompassing end of line fails" time="0.0">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing character literal encompassing end of line fails" time="0.001">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing character literal interrupted by end of input fails" time="0.0">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'TRUE'" time="0.017">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'TRUE'" time="0.056">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'FALSE'" time="0.003">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'FALSE'" time="0.004">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'GLOBAL' declaration with no entries should fail" time="0.009">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'GLOBAL' declaration with no entries should fail" time="0.013">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'GLOBAL' declaration with a single entry" time="0.006">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'GLOBAL' declaration with a single entry" time="0.008">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing simple 'GLOBAL' declaration" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing simple 'GLOBAL' declaration" time="0.001">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'GLOBAL' declaration with EOL separator" time="0.002">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'GLOBAL' declaration with missing initialisers" time="0.002">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'STATIC' declaration with no entries should fail" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'STATIC' declaration with no entries should fail" time="0.003">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'STATIC' declaration with a single entry" time="0.006">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing simple 'STATIC' declaration" time="0.003">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing simple 'STATIC' declaration" time="0.004">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'STATIC' declaration with EOL separator" time="0.006">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'STATIC' declaration with EOL separator" time="0.008">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'STATIC' declaration with missing initialisers" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'STATIC' declaration with missing initialisers" time="0.003">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'MANIFEST' declaration with no entries should fail" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'MANIFEST' declaration with no entries should fail" time="0.003">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'MANIFEST' declaration with a single entry" time="0.003">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'MANIFEST' declaration with a single entry" time="0.004">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing simple 'MANIFEST' declaration" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing simple 'MANIFEST' declaration" time="0.004">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'MANIFEST' declaration with EOL separator" time="0.003">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'MANIFEST' declaration with EOL separator" time="0.006">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'MANIFEST' declaration with missing initialisers" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing 'MANIFEST' declaration with missing initialisers" time="0.003">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse of variable declaration without initialiser should fail" time="0.01">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse of variable declaration without initialiser should fail" time="0.013">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse of variable declaration without equals should fail" time="0.001">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse declaration of a single variable" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse declaration of a single variable" time="0.004">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse declaration of two variables" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse declaration of two variables" time="0.003">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse declaration of four variables" time="0.005">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse declaration of four variables" time="0.007">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse of vector declaration missing equals fails" time="0.001">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse of vector declaration missing size expression fails" time="0.001">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse of vector declaration missing size expression fails" time="0.002">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse simple vector declaration" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse simple vector declaration" time="0.005">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse vector declaration with size given by manifest constant" time="0.001">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse vector declaration with size given by manifest constant" time="0.003">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a function declaration without equals fails" time="0.003">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a function declaration without equals fails" time="0.004">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a function declaration without defining expression fails" time="0.001">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a function declaration without defining expression fails" time="0.002">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a function declaration with no formal parameters" time="0.003">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a function declaration with no formal parameters" time="0.004">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a function declaration with a single formal parameter" time="0.002">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a function declaration with multiple parameters" time="0.004">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a function declaration with multiple parameters" time="0.005">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a procedure declaration without `BE` fails" time="0.001">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a procudere declaration without defining statement fails" time="0.006">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a procudere declaration without defining statement fails" time="0.036">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a procedure declaration with no formal parameters" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a procedure declaration with no formal parameters" time="0.005">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a procedure declaration with a single formal parameter" time="0.001">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a procedure declaration with a single formal parameter" time="0.002">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a procedure declaration with multiple parameters" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a procedure declaration with multiple parameters" time="0.003">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse `LET` declaration with single `AND` clause" time="0.003">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a more complex `LET` declaration with `AND` clauses" time="0.004">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse a more complex `LET` declaration with `AND` clauses" time="0.007">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse simple function call with no argument" time="0.002">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse simple function call with one argument" time="0.002">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse simple function call with more than one argument" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse simple function call with more than one argument" time="0.006">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing function call with missing argument causes an error" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing function call with missing argument causes an error" time="0.004">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse of an iterated function call associates to the left" time="0.003">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parse of an iterated function call associates to the left" time="0.006">
                                                  
                                                </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a single relation" time="0.002">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a sequence of two relations" time="0.001">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a sequence of two relations" time="0.002">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a sequence of three relations" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a sequence of three relations" time="0.003">
                                                  
-                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a sequence of four relations" time="0.002">
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a sequence of four relations" time="0.003">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="ternary with parentheses on right A -&gt; B, (C -&gt; D, E)" time="0.004">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="ternary with parentheses in middle A -&gt; (B -&gt; C, D), E)" time="0.003">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="XOR" time="0.003">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="EQV" time="0.003">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="OR" time="0.003">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="OR Associativity" time="0.003">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="AND" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="AND Associativity" time="0.003">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="NOT something" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="BitShift Left" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="BitShift Left Associativity" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="BitShift Right" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="BitShift Right Associativity" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="address expression" time="0.003">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="+ is left associative" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="- is left associative" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="- and + are left associative" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="* is left associative" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="/ is left associative" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="/ and * are left associative" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="+ has lower precedence than * (to left)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="- has lower precedence than * (to left)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="+ has lower precedence than * (to right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="- has lower precedence than * (to right)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="+ has lower precedence than / (to left)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="- has lower precedence than / (to left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="+ has lower precedence than / (to right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="- has lower precedence than / (to right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="= has lower precedence than * (to left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="&lt; has lower precedence than * (to left)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="= has lower precedence than * (to right)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="&lt; has lower precedence than * (to right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="= has lower precedence than / (to left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="&lt; has lower precedence than / (to left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="= has lower precedence than / (to right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="&lt; has lower precedence than / (to right)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="= has lower precedence than + (to left)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="&lt; has lower precedence than + (to left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="= has lower precedence than + (to right)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="&lt; has lower precedence than + (to right)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="= has lower precedence than - (to left)" time="0.003">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="&lt; has lower precedence than - (to left)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="= has lower precedence than - (to right)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="&lt; has lower precedence than - (to right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="unary - has higher precedence than = (to left)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="unary - has higher precedence than = (to right)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="unary - has higher precedence that &lt; (to left)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="unary - has higher precedence that &lt; (to right)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="unary - has higher precedence than + (to left)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="unary - has higher precedence than + (to right)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="unary - has higher precedence than - (to left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="unary - has higher precedence than - (to right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="unary - has lower precedence than * (to left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="unary - has lower precedence than / (to left)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing an equal expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a less than expression produces the correct tree" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing an addition expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a subtraction expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a multiplication expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a division expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing an integer expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing an identifier expression produces the correct tree" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parsing a parenthesized expression produces the correct tree" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parentheses override precedence (to left)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parentheses override precedence (to right)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parentheses override associativity in expressions" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parentheses disambiguate non-associativity (to right)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="webcpl.SyntaxAnalysisTests" name="parentheses disambiguate non-associativity (to left)" time="0.002">
                                                  
                                                </testcase>
                      <system-out><![CDATA[]]></system-out>

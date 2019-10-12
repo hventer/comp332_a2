@@ -74,44 +74,44 @@ class SyntaxAnalysis(positions: Positions)
     repeatableStmt |
       iteratedStmt |
       testStmt
-
+  
   lazy val repeatableStmt: PackratParser[Statement] =
     repeatableStmt <~ REPEAT ^^ RepeatStmt |
       (repeatableStmt <~ REPEATWHILE) ~ expression ^^ RepeatWhileStmt |
       (repeatableStmt <~ REPEATUNTIL) ~ expression ^^ RepeatUntilStmt |
       simpleStmt
-      /*
-      repeatableStmt :
-        repeatableStmt "REPEAT"
-      | repeatableStmt "REPEATWHILE" expression
-      | repeatableStmt "REPEATUNTIL" expression
-      | simpleStmt
-      */
-
+        /*
+        repeatableStmt :
+          repeatableStmt "REPEAT"
+        | repeatableStmt "REPEATWHILE" expression
+        | repeatableStmt "REPEATUNTIL" expression
+        | simpleStmt
+        */
+  
   lazy val iteratedStmt: PackratParser[Statement] =
     (UNTIL ~> expression) ~ (DO ~> statement) ^^ UntilDoStmt |
       (WHILE ~> expression) ~ (DO ~> statement) ^^ WhileDoStmt |
-      (FOR ~> idndef) ~ (equal ~> expression) ~ (TO ~> expression) ~ opt(BY ~> expression <~ question) ~ (DO ~> statement) ^^ ForStmt
-      /*
-      "UNTIL" expression "DO" statement
-    | "WHILE" expression "DO" statement
-    | "FOR" idndef "=" expression "TO" expression 
-          ("BY" expression)? "DO" statement
-      */
-
+      (FOR ~> idndef) ~ (equal ~> expression) ~ (TO ~> expression) ~ opt(BY ~> expression) ~ (DO ~> statement) ^^ ForStmt
+        /*
+        "UNTIL" expression "DO" statement
+      | "WHILE" expression "DO" statement
+      | "FOR" idndef "=" expression "TO" expression 
+            ("BY" expression)? "DO" statement
+        */
+  
   lazy val testStmt: PackratParser[Statement] =
     (TEST ~> expression) ~ (THEN ~> statement) ~ (ELSE ~> statement) ^^ TestThenElseStmt |
       (IF ~> expression) ~ (DO ~> statement) ^^ IfDoStmt |
       (UNLESS ~> expression) ~ (DO ~> statement) ^^ UnlessDoStmt
-    /*
-    testStmt :
-      "TEST" expression "THEN" statement "ELSE" statement
-    | "IF" expression "DO" statement
-    | "UNLESS" expression "DO" statement
-    */
-
+      /*
+      testStmt :
+        "TEST" expression "THEN" statement "ELSE" statement
+      | "IF" expression "DO" statement
+      | "UNLESS" expression "DO" statement
+      */
+  
   lazy val simpleStmt: PackratParser[Statement] =
-    repsep(expression, comma) ~ (assign ~> repsep(expression, comma)) ^^ AssignStmt |
+    rep1sep(expression, comma) ~ (assign ~> rep1sep(expression, comma)) ^^ AssignStmt |
       callExp ^^ CallStmt |
       BREAK ^^^ BreakStmt() |
       LOOP ^^^ LoopStmt() |
@@ -122,41 +122,42 @@ class SyntaxAnalysis(positions: Positions)
       RESULTIS ~> expression ^^ ResultIsStmt |
       (SWITCHON ~> expression) ~ (INTO ~> blockStmt) ^^ SwitchOnStmt |
       blockStmt 
-    /*
-    simpleStmt :
-      (expression ",")* expression ":=" (expression ",")* expression
-    | callExp 
-    | "BREAK" | "LOOP" | "ENDCASE" | "RETURN" | "FINISH"
-    | "GOTO" labuse
-    | "RESULTIS" expression
-    | "SWITCHON" expression "INTO" blockStmt
-    | blockStmt
-    */
-
+      /*
+      simpleStmt :
+        (expression ",")* expression ":=" (expression ",")* expression
+      | callExp 
+      | "BREAK" | "LOOP" | "ENDCASE" | "RETURN" | "FINISH"
+      | "GOTO" labuse
+      | "RESULTIS" expression
+      | "SWITCHON" expression "INTO" blockStmt
+      | blockStmt
+      */
+  
   lazy val blockStmt: PackratParser[Block] =
     leftBrace ~> (repsep(declaration, semiColon)) ~ (rep1sep(statement, semiColon)) <~ rightBrace ^^ Block
-    /*
-    blockStmt : "{" (declaration ";")* (statement ";")* statement "}"
-    */
-      
+      /*
+      blockStmt : "{" (declaration ";")* (statement ";")* statement "}"
+      */
+
   /*
    * Expression parsers.
    */
 
-  //Top level expression parser, parse `VALOF` and `TABLE` expressions.
+  /**
+    * Top level expression parser, parse `VALOF` and `TABLE` expressions.
+    */
   lazy val expression: PackratParser[Expression] =
     VALOF ~> statement ^^ ValofExp |
       TABLE ~> rep1sep(expression, comma) ^^ TableExp |
       condExp
 
-  //FIXME
-  //Level 1, parse if expressions `->`.
-  lazy val condExp: PackratParser[Expression] = 
-    //VALOF ~> statement ^^ ValofExp |
+  /**
+    * Level 1, parse if expressions `->`.
+    */
+  lazy val condExp: PackratParser[Expression] =  
+    xorEqvExp ~ (rightArrow ~> condExp) ~ (comma ~> condExp) ^^ IfExp |
     xorEqvExp
 
-    //expression ~> rightArrow expression comma expression
-    //expression "->" expression "," expression
 
   //Level 2
   lazy val xorEqvExp: PackratParser[Expression] =
@@ -176,7 +177,7 @@ class SyntaxAnalysis(positions: Positions)
 
   //Level 5
   lazy val notExp: PackratParser[Expression] = 
-    NOT ~> bitShftExp ^^ NotExp|
+    NOT ~> notExp ^^ NotExp|
     bitShftExp
 
   //Level 6
@@ -184,7 +185,6 @@ class SyntaxAnalysis(positions: Positions)
     bitShftExp ~ (shiftLeft ~> relExp) ^^ ShiftLeftExp |
     bitShftExp ~ (shiftRight ~> relExp) ^^ ShiftRightExp |
     relExp
-
   /**
     * Level 7, parse relational expressions `~=`, `=`, `>=`, `<=`...
     *
@@ -216,9 +216,9 @@ class SyntaxAnalysis(positions: Positions)
 
   //Level 9
   lazy val uAddExp: PackratParser[Expression] =
-    unaryMinus ~> multExp ^^ NegExp |
+    unaryMinus ~> uAddExp ^^ NegExp |
     unaryPlus ~> idnuse ^^ IdnExp |
-    ABS ~> multExp ^^ AbsExp |
+    ABS ~> uAddExp ^^ AbsExp |
     multExp
 
   //Level 10
@@ -230,9 +230,9 @@ class SyntaxAnalysis(positions: Positions)
 
   //Level 11
   lazy val addressExp: PackratParser[Expression] =
-    unaryPling ~> vectorExp ^^ UnaryPlingExp |
-    unaryPercent ~> vectorExp ^^ UnaryBytePlingExp |
-    at ~> vectorExp ^^ AddrOfExp |
+    unaryPling ~> addressExp ^^ UnaryPlingExp |
+    unaryPercent ~> addressExp ^^ UnaryBytePlingExp |
+    at ~> addressExp ^^ AddrOfExp |
     vectorExp
 
   //Level 12
@@ -240,8 +240,6 @@ class SyntaxAnalysis(positions: Positions)
     vectorExp ~ (pling ~> primaryExp) ^^ BinaryPlingExp| 
     vectorExp ~ (percent ~> primaryExp) ^^ BinaryBytePlingExp |
     primaryExp
-
-  
   /**
     * Level 13, parse primary expressions, that is function calls, identifiers,
     * bracketed expressions, and literal constants.
