@@ -49,3 +49,7 @@ run src/test/resources/expregs.b
 test
 run src/test/resources/expregs.b
 test
+compile
+test
+clean
+exit

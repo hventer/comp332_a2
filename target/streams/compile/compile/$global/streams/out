@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/main/scala/SyntaxAnalysis.scala:103:23: ';' expected but ')' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    TEST ~> expression) ~ (THEN ~> statement) ~ (ELSE ~> statement) ^^ TestThenElseStmt |[0m
-[0m[[0m[31merror[0m] [0m[0m                      ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

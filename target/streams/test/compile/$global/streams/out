@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala:929:5: not found: value exp[0m
-[0m[[0m[31merror[0m] [0m[0m    exp("a * -b") should parseTo[Expression]([0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/hannesventer/OneDrive - Macquarie University/Uni Work/2019 S2/COMP332/Assignment 2/comp332_a2/src/test/scala/SyntaxAnalysisTests.scala:939:5: not found: value exp[0m
-[0m[[0m[31merror[0m] [0m[0m    exp("a / -b") should parseTo[Expression]([0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
